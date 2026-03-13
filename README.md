@@ -4,9 +4,8 @@
 
 ## 什么是 Agent
 
-- Agent = LLM + 目标（任务）+ 工具（调用外部能力）+ 状态/记忆（上下文、持久化存储等）
-- 典型闭环：观察（输入）→ 计划/决策 → 行动（工具调用）→ 结果反馈 → 继续迭代直到完成任务
-
+Agent 可以理解为能在特定环境中完成任务的 LLM 系统：在目标驱动下，进行计划与执行，通过工
+具调用与外部世界交互，并维护状态/记忆（短期上下文、长期存储等）来迭代完成任务。
 ## Google Agent Study（PDF）
 
 - [Introduction to Agents](agent_study/Introduction%20to%20Agents.pdf)
